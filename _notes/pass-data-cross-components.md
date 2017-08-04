@@ -12,7 +12,7 @@
   ```
   <app-server-element *ngFor="let serverElement of serverElements" 
         [alias]="serverElement">
-  111
+  ```
 ## Pass data from sub-component to parent component [event]
   In sub component expose events by using @Output() and EventEmitter
   ```
