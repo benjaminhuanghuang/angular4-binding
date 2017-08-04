@@ -31,6 +31,7 @@ export class ServerElementComponent implements
   AfterViewInit,
   AfterViewChecked,
   OnDestroy {
+  // @Input() make property element can be assessed from outside  
   @Input('srvElement') element: { type: string, name: string, content: string };
   @Input() name: string;
   @ViewChild('heading') header: ElementRef;
