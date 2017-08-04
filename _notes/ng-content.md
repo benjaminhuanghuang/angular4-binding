@@ -17,3 +17,6 @@ Use <ng-content> in sub-component
     <ng-content></ng-content>
   </div>
 ```
+
+## Access ng-content with ContentChild
+  @ContentChild('contentParagraph') paragraph: ElementRef;
